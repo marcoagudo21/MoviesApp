@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack-Básico</title>
+  <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./assets/pngwing.com.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2aa9a561e6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero_container" id="2">
+        <div class="cspn spinner__container__none">
+          <div class="spinner"></div>
+          <p>Loading...</p>
+        </div>
+        <!-- style="background-image: url('./assets/carita.png'); -->
+        <nav id="home" class="nav">
+          <!-- nav2 -->
+          <img src="assets/pngwing.com.png" alt="logo"/>
+          <a href="#home" class="home">HOME</a>
+          <button href="#movies" class="amovies">MOVIES</button>
+          
+          <form action="">
+            <input type="text" name="search" id="search" placeholder="SEARCH" />
+          </form>
+        </nav>
+        <div class="movie__selected__none" id="1">
+          
+        </div>
+        <div class="hero" id="3"> 
+          <!-- class hero/d-none --> 
+          <div class="hero__movie__info">
+            <h1>My Hero Academia: World Heroes Mission</h1>
+            <p>
+              A mysterious group called Humarize strongly believes in the Quirk
+              Singularity Doomsday theory which states that when quirks get
+              mixed further in with future generations, that power will bring
+              forth the end of humanity. In order to save everyone, the
+              Pro-Heroes around the world ask UA Academy heroes-in-training to
+              assist them and form a world-class selected hero team...
+            </p>
+            <div class="hero__btn">
+              
+              <button class="hero__btn__rm">Read More</button>
+            </div>
+          </div>
+          <div class="hero__img">
+            <img src="./assets/AsTlA7dj2ySGY1pzGSD0MoHFhEF.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-none" id="4">
+          <!-- d-none - hero2 -->
+          
+
+
+
+  
+        </div>
+      </div>
+
+      <section class="list movies series" id="5">
+        <!-- d-none -->
+        <div class="movies__series">
+          <div class="movies__series__info">
+            <h2 id="movies">Upcoming movies</h2>
+            <button class="btn__um">View more</button>
+          </div>
+          <div class="movies__series__list">
+             <!-- Swiper 1 -->
+    
+             
+      <div class="swiper-container mySwiper">
+        
+          <div class="swiper-wrapper upcmovies">
+            
+             
+          
+              </div>
+              
+             
+     
+          </div>
+          
+       
+       
+
+      </div>
+
+  
+  <!-- Swiper JS 1 -->
+
+          </div>
+          <div class="movies__series">
+            <div class="movies__series__info">
+              <h2>Top rated movies</h2>
+              <button class="btn__trm">View more</button>
+            </div>
+            <div class="movies__series__list">
+               <!-- Swiper 2 -->
+      
+               
+        <div class="swiper-container mySwiper">
+          
+            <div class="swiper-wrapper trmovies">
+              
+                
+            
+                </div>
+                
+               
+       
+            </div>
+            
+         
+         
+  
+        </div>
+  
+    
+    <!-- Swiper JS 2 -->
+  
+            </div>
+            <div id="tvseries" class="movies__series">
+              <div class="movies__series__info">
+                <h2>Popular Movies</h2>
+                <br>
+                <button class="btn__ps">View more</button>
+              </div>
+              <div class="movies__series__list">
+                 <!-- Swiper 3 -->
+        
+                 
+          <div  class="swiper-container mySwiper">
+            
+              <div class="swiper-wrapper pmovies">
+                
+                  
+              
+                  </div>
+                  
+                 
+         
+              </div>
+              
+           
+           
+    
+          </div>
+    
+      
+      <!-- Swiper JS 3 -->
+    
+              </div>
+        </div>
+      </section>
+      <div class="footer">
+        <img src="./assets/pngwing.com.png" width="80px" alt="">
+        <div class="footer_content">
+          <div class="footer__content__slot1">
+            <a>Home</a>
+            <a>Contact Us</a>
+            <a>Term of services</a>
+            <a>About us</a>
+          </div>
+          <div class="footer__content__slot2">
+            <a>Live</a>
+            <a>FAQ</a>
+            <a>Premium</a>
+            <a>Privacy policy</a>
+          </div>
+          <div class="footer__content__slot3">
+            <a>Your must watch</a>
+            <a>Recent release</a>
+            <a>Top IMDB</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swipper.js"></script>
+  </body>
+</html>
